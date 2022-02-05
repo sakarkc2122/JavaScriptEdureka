@@ -1,0 +1,52 @@
+Browser Object Model (BOM)
+- Browser Objects are global Objects
+- Available throughout the JavaScript code
+- BOM allows JS code to interact with the browser properties
+
+window Object: locationObj, historyObj, documentObj, navigatorObj, screenObj
+                                            |
+                                formsObj, imagesObj, linksObj
+
+# window object:
+1. window.open() - open a new window
+2. window.close() - close the current window
+3. window.moveTo() - move the current window
+4. window.resizeTo() - resize the current window
+
+# Screen Object:
+- The screen object contains information of the uses screen
+- The window.screen object can be written without the Window prefix
+- Some basic properties of the screen are:
+1. screen.width() - returns the width of the users screen
+2. screen.height() - returns the height of the users
+3. screen.availWidth() - returns the width of the users screen, excluding features like Windows Taskbar
+4. screen.availHeight() - returns the height of the users screen, excluding features like Windows Taskbar
+5. screen.colorDepth() - returns the number of bits used to display one colorDepth
+6. screen.pixelDepth() - retrns the pixel depth of the screen.
+
+# navigator Object:
+- contains information of the visitors browser
+- The window.navigator object can be written without the window prefix
+- some basic properties:
+1. navigator.appName() - returns the application name onn the browser
+2. navigator.appCodeName() - return the application codename on the browser
+3. navigator.platform() - retrns the platform (OS) name
+4. navigator.cookieEnabled() - returns true if cookies are enabled
+5. navigator.product() - returns the product name of the browser engine.
+
+# location object:
+- The window.location object can be used to:
+    ~ Get the current page address (URL)
+    ~ Redirect the browser to a new page.
+- some properties:
+1. window.location.href() - returns the href (URL) of the current page.
+2. .hostname() - retrns the domain name of the web hostname
+3. .pathname() - returns the path and filename of the current page
+4. .protocol() - returns the web protocol used (http: or https:)
+5. .assign() - loads a new document.
+
+# history object:
+- The window.history object contains the browsers history
+- Some methods of history object:
+1. history.back() - same as clicking back in the browser
+2. history.forward() - same as clicking forward in the browser

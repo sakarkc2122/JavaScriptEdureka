@@ -4,3 +4,39 @@ Syntax:
     
 2. Calling of a function:
     nameOfFunction();
+
+
+Types of Functions:
+On the basis of how it is defined and called, functions are categorized in 4 types
+1. Named Functions: has a unique name
+2. Anonymous Functions: does not have any name
+3. Self Invoking Functions: function that calls ifself
+4. Constructors: is called when an object is created using the new keyword
+
+2. Anonymous Functions:
+-Stored in a variable
+    var add = function(a,b){return a+b};
+    add(2,3);
+    },5000);
+
+-Passed as an argument to another function
+    setTimeout(function()
+    {
+        alert("this message is displayed after 5 seconds");
+    }, 5000);
+
+    //setTimeout is a global method that is given by JS
+    //It takes two arguments: function that is to be executed and timeToSleep in number
+
+3. Constructors:
+-new keyword is followed by what type of object you want to create.
+
+4. Self Invoking Functions:
+- are anonymous functions, which are invoked right after the function has been defined.
+- you can execute the code once, without declaring any global variables.
+- No reference is maintained to this function, not even to its reutrn value.
+- Syntax:
+(function(){
+    //body
+}() );
+

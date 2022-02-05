@@ -19,3 +19,7 @@ Primitive Data Types:
     5. Can use uppercase or lowercase alphabets
 
 # You will always mark any variable of the type 'var' stands for variable.
+
+
+LINK TO VIDEO:
+https://www.youtube.com/watch?v=o1IaduQICO0&t=4828s&ab_channel=edureka%21

@@ -1,0 +1,6 @@
+Closure:
+# It is an implicit permanent link betwen the function and its scope chain
+# A function definition's (Lamda) hidden [[scope]]("[[]]" denotes internal property) reference:
+- Holds the Scope Chain (preventing garbage Collection)
+- It is used and copied as the "outer environment reference" anytime the function is run
+# We saw an example of closure in the previous slide, where local memory of f() is not garbage collected even when there is no way to access f()

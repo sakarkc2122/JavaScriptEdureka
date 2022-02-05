@@ -1,0 +1,12 @@
+# Form Validations:
+- HTML forms can be validated by JS
+- The main goal of Data Validation is to ensure correct user input
+- Validation can be defined by many different methods, and deployed in many different ways:
+1. Server-side validation is performed by a web server, after input has been sent to the server.
+2. Client-side validation is performed by a web browser, before input is sent to the web server.
+- Saves a lot of unnecessary calls to the server as all processing is handled by the web browser.
+
+# Typical Validation:
+1. Check if the input field is empty.
+2. Check if the input field is a numeric value.
+3. Check if the input field is a valid email id.

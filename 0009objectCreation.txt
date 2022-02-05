@@ -1,0 +1,13 @@
+Object Creation:
+- Creating with new keyword
+    var person = new Object();
+    person.name = "Saya";
+    person.age = 21;
+
+- Creating {} with initial set of properties (attributes) with .(dot)
+    var person = {};
+    person.name = "Saya";
+    person.age = 21; 
+
+
+# object are always a real life entities.
