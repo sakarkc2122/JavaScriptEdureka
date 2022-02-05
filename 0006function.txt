@@ -1,0 +1,6 @@
+Syntax:
+1. Defination of function:
+    function nameOfFunction (parameters/arguments){}
+    
+2. Calling of a function:
+    nameOfFunction();

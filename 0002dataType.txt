@@ -1,0 +1,21 @@
+Primitive Data Types:
+1. Number
+2. Boolean: True or False
+3. String: Character in single/double quotes
+4. Null: Specific value i.e. Null
+5. Arrays: Indexable list of items
+6. Object: Group of attribute value pairs
+7. Special values: 
+    NaN - Not a number and 
+    Undefined - a declared variable is not defined
+4, 5, and 6: though they are different types, they are called objects in JS
+
+#JS variable can be considered as containers, which store a particular value or name for a particular block of memory
+# JS variables has standardized naming conventions:
+    1. Do not use JS language keywords such as if, for, do and function
+    2. Do not start with a digit 0, 1, 2, ... , 9
+    3. Do not use special characters (%$&) inside the name
+    4. Start with an alphabet or followed by an alphabet or digits or underscore
+    5. Can use uppercase or lowercase alphabets
+
+# You will always mark any variable of the type 'var' stands for variable.

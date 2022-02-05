@@ -1,0 +1,9 @@
+JavaScript - Operators
+1. Arithmetic Operators : +, -, *, /, %, ++ increment, -- decrement, - unary minus.
+2. String Operators: + concatenation
+3. Assignment Operators: =, +=, -=, *=, /=, %= mode assign
+4. Comparison Operators: ==, !=, >, <, >=, <=, === equal value and same type, !== note equal value or not same type
+    These operators will give output which is of the type Boolean.
+5. Boolean Operators: && And, || or, ! Not
+6. Ternary Operators:
+    variable_name = (condition)? value1:value2;

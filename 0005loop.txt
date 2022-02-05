@@ -1,0 +1,8 @@
+JavaScript - loops
+
+1. For
+    for(initialization; condition; updation)
+    
+2. For-in
+3. While
+4. Do-while
