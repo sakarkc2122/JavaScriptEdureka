@@ -1,0 +1,20 @@
+1. Webpage: page shown by a browser
+2. JavaScript is a client-side scripting language & not a serverside scripting language.
+3. HTML file: Browser only understand markup language
+4. Browser has parser that reads a HTML file.
+5. HTML file is a host for our JavaScript code.
+6. HTML itself is static. Thus including JavaScript adds Dynamicness to HTML
+7. Without any additional libraries, JavaScript is called vanilla JavaScript.
+8. Case Sensitive language for making interacting webpage.
+9. Intepreted & executed on the client-side.
+10. JavaScript is default scripting language for the HTML page.
+11. Reduces the load on the server as some operations are done on the client-side
+12. Rich in operations & loops.
+
+# Elements in bucket are called Document.
+Document are readymade object available in JS. Using Document, all elements can be accessed within the page.
+Eg.: 	document.getElementByID();
+	document.getElementByTagName();
+Notice that the naming convention of these method is camelCase.
+
+# JavaScript is a multi-paradigm language that uses prototypical inheritance.
